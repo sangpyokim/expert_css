@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.box {
+    font-size: 36px;
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:nth-child(2) {
+    background-color: black;
+    flex-grow: 2;
+    flex-shrink: 3;
+}
+.box:nth-child(4) {
+    background-color: black;
+    flex-grow: 3;
+}
