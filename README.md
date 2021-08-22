@@ -17,13 +17,13 @@
 
 ## Grid:
 
--   [ ] grid-template-columns
--   [ ] grid-template-rows
--   [ ] grid-template-areas
--   [ ] grid-template
--   [ ] grid-column-gap
--   [ ] grid-row-gap
--   [ ] grid-gap
+-   [x] grid-template-columns // 세로 측 하나씩
+-   [x] grid-template-rows // 가로 측 하나씩
+-   [x] grid-template-areas // 이름으로 공간을 정해줄 수 있음
+-   [x] grid-area // grid-template-areas에서 사용할 이름을 정함
+-   [x] grid-column-gap // 가로측 사이 공간
+-   [x] grid-row-gap // 세로측 사이 공간
+-   [x] grid-gap // 가로세로 사이 공간 한번에
 -   [ ] grid-template-areas
 -   [ ] grid-template
 -   [ ] justify-items
@@ -33,10 +33,10 @@
 -   [ ] grid-auto-columns
 -   [ ] grid-auto-rows
 -   [ ] grid-auto-flow
--   [ ] grid-column-start
--   [ ] grid-column-end
--   [ ] grid-row-start
--   [ ] grid-row-end
+-   [x] grid-column-start // 범
+-   [x] grid-column-end // 위
+-   [x] grid-row-start // 지
+-   [x] grid-row-end // 정
 -   [ ] grid-column
 -   [ ] grid-row
 -   [ ] justify-self
