@@ -24,8 +24,7 @@
 -   [x] grid-column-gap // 가로측 사이 공간
 -   [x] grid-row-gap // 세로측 사이 공간
 -   [x] grid-gap // 가로세로 사이 공간 한번에
--   [ ] grid-template-areas
--   [ ] grid-template
+-   [x] grid-template // grid-template-areas랑 비슷 grid의 높이를 정해줘야함 fr사용
 -   [ ] justify-items
 -   [ ] align-items
 -   [ ] justify-content
@@ -37,8 +36,8 @@
 -   [x] grid-column-end // 위
 -   [x] grid-row-start // 지
 -   [x] grid-row-end // 정
--   [ ] grid-column
--   [ ] grid-row
+-   [x] grid-column // grid-column-start와 grid-column-end를 합침 1 / 2 라고 표현 맨 끝은 -1 span 4 라고도 표현 grid의 한 공간을 span이라함
+-   [x] grid-row // grid-row-start와 grid-row-end를 합침 1 / 2 라고 표현 맨 끝은 -1 span 4 라고도 표현 grid의 한 공간을 span이라함
 -   [ ] justify-self
 -   [ ] align-self
 
