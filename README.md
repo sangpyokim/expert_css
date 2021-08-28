@@ -21,32 +21,35 @@
 -   [x] grid-template-rows // 가로 측 하나씩
 -   [x] grid-template-areas // 이름으로 공간을 정해줄 수 있음
 -   [x] grid-area // grid-template-areas에서 사용할 이름을 정함
+-   [x] grid-template // grid-template-areas랑 비슷 grid의 높이를 정해줘야함 fr사용
 -   [x] grid-column-gap // 가로측 사이 공간
 -   [x] grid-row-gap // 세로측 사이 공간
--   [x] grid-gap // 가로세로 사이 공간 한번에
--   [x] grid-template // grid-template-areas랑 비슷 grid의 높이를 정해줘야함 fr사용
--   [ ] justify-items
--   [ ] align-items
--   [ ] justify-content
--   [ ] align-content
--   [ ] grid-auto-columns
--   [ ] grid-auto-rows
--   [ ] grid-auto-flow
 -   [x] grid-column-start // 범
 -   [x] grid-column-end // 위
 -   [x] grid-row-start // 지
 -   [x] grid-row-end // 정
 -   [x] grid-column // grid-column-start와 grid-column-end를 합침 1 / 2 라고 표현 맨 끝은 -1 span 4 라고도 표현 grid의 한 공간을 span이라함
 -   [x] grid-row // grid-row-start와 grid-row-end를 합침 1 / 2 라고 표현 맨 끝은 -1 span 4 라고도 표현 grid의 한 공간을 span이라함
--   [ ] justify-self
--   [ ] align-self
+-   [x] grid-gap // 가로세로 사이 공간 한번에
+-   [x] justify-self
+-   [x] align-self
+-   [x] place-self
+-   [x] justify-items // 한 cell에서 수평의 위치를 정함 default stretch
+-   [x] align-items // 한 cell에서 수직의 위치를 정함 default stretch
+-   [x] place-items // align-items(수직) + justyfy-items(수평) 을 합친 속성
+-   [x] justify-content // ㅁㅁ-items는 한 셀안에서 움직인다면 justify-content는 grid전체를 수평으로 움직임
+-   [x] align-content // align-content는 grid전체를 수평으로 움직임
+-   [x] place-self
+-   [x] grid-auto-columns
+-   [x] grid-auto-rows
+-   [x] grid-auto-flow
 
 ### Keywords & Functions:
 
--   [ ] repeat
+-   [x] repeat // repeat(갯수, 크기)
+-   [x] minmax // minmax(최소치, 최대치)
 -   [ ] min-content
 -   [ ] max-content
--   [ ] minmax
 -   [ ] auto-fit
 -   [ ] auto-fill
 
@@ -61,7 +64,7 @@
 
 ## To Clone:
 
--   [ ] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
+-   [x] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
 -   [ ] [https://paint-box.com/](https://paint-box.com/)
 -   [ ] [http://10x19.co/](http://10x19.co/)
 -   [ ] [http://www.z-o-o.fr/](http://www.z-o-o.fr/)
