@@ -1,0 +1,96 @@
+body {
+    height: 400vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    width: 80%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+header h4 {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+header h4:first-child {
+    margin-right: 40px;
+}
+header div {
+    display: flex;
+}
+
+main {
+    width: minmax(85%, 1000px);
+    margin-top: 70px;
+}
+
+main section,
+main article {
+    display: flex;
+    width: 100%;
+}
+main section {
+    justify-content: center;
+}
+
+main section div,
+main section img {
+    background-color: #fbf7f6;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(25, 25, 25, 0.8);
+}
+
+.font {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+}
+main section h2,
+main section h4 {
+    width: 440px;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+main a {
+    border: 1px solid black;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 70px;
+    transition: all 0.2s;
+}
+
+main a:hover {
+    background-color: rgba(25, 25, 25, 0.8);
+    color: white;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vw;
+}
+article div:nth-child(2),
+article div:nth-child(2) img {
+    display: flex;
+    width: 20vw;
+    height: 20vw;
+}
